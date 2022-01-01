@@ -1,0 +1,37 @@
+.sortMenu {
+  display: flex;
+  overflow-x: auto;
+}
+
+.sortMenu::-webkit-scrollbar {
+    width: 0;
+}
+
+.sortBtn {
+  margin: 0.5rem 0.25rem;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.00rem;
+  /* font-family: 'San-serif' !important; */
+  background-color: #323030;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.sortBtn :hover{
+  background-color: green;
+}
+
+@media only screen and (min-width: 1023px) {
+}
+
+/* Tablet only */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+/* Mobile only */
+@media only screen and (max-width: 767px) {
+}
