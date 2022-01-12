@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+
+.page {
+  min-height: 52vh;
+  min-width: 80vw;
+  display: flex;
+  justify-content:safe;
+  align-items: flex-start;
+  color: #fff;
+  background-color: rgb(14, 16, 19);
+  overflow: hidden; 
+}
+
+.container {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.mainTitle {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.header {
+  margin: 0 0 1.5rem 0;
+}
+
+.title {
+  font-family: "Raleway", monospace;
+  color: #08c18a;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 0 0 0;
+}
+
+.imgDiv {
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.resumeContainer {
+  margin: 3rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.resumePreview {
+  width: 140px;
+  height: 200px;
+  border-radius: 1rem;
+}
+
+/* Both Tablet and Mobile */
+@media only screen and (min-width: 1023px) {
+}
+
+/* Tablet only */
+@media only screen and (min-width: 768px) and (max-width: 1095px) {
+  .resumeContainer {
+    flex-direction: column;
+  }
+
+  .imgDiv {
+    margin: 2rem 0 5rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+/* Mobile only */
+@media only screen and (max-width: 767px) {
+  .container {
+    margin: 2rem 0;
+  }
+
+  .header {
+    margin: 0 0 1.5rem 0;
+  }
+
+  .mainTitle {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .skillsContainer {
+    margin: 1.5rem 0 2.5rem 0;
+  }
+
+  .resumeContainer {
+    flex-direction: column;
+  }
+
+  .imgDiv {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0 5rem 0;
+  }
+
+  .resumePreview {
+    margin: 2rem 0;
+  }
+
+  .resume {
+    margin: 2rem 0 3rem 0;
+  }
+}
