@@ -22,9 +22,9 @@ const ModalThreeBlogContent = () => {
       </div>
       {/* Meta Ends */}
       {/* Article Content Starts */}
-
-      <h1>SOMPS-Net</h1>
-  
+    <div className="link">
+      <h1>SOMPS-Net <a href="https://github.com/sowmiya-2805/SOMPS-Net-Social-graph-framework-for-fake-health-news-detection"><i class="fa fa-link" aria-hidden="true"></i></a>  </h1>
+  </div>
       <img src="img/blog/project3.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p>

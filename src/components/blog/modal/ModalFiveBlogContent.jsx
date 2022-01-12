@@ -23,7 +23,11 @@ const ModalFiveBlogContent = () => {
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>Semantic analysis of tweets using lexicals & semantics</h1>
+      <div className="link">
+      <h1>Semantic analysis of tweets using lexicals & semantics <a href="https://github.com/sowmiya-2805/Sentiment_Analysis_of_Tweets"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
+  </div>
+
+      {/* <h1>Semantic analysis of tweets using lexicals & semantics</h1> */}
       <img src="img/blog/project52.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p>

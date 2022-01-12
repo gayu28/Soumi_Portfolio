@@ -4,7 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 
@@ -40,7 +40,7 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href="img/soumi.webp" download>
+                <a className="button" href="img/soumi.pdf" download="resume">
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
@@ -78,7 +78,9 @@ const index = () => {
 
         {/* <hr className="separator mt-1" /> */}
 
+    <div className = "education-experience">
         {/* Experience & Education Starts */}
+      
         <div className="row">
           <div className="col-12">
             <h3 className="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">
@@ -95,6 +97,7 @@ const index = () => {
               <Education />
             </div>
           </div>
+        </div>
         </div>
         {/*  Experience & Education Ends */}
       </div>

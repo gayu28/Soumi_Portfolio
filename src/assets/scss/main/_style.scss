@@ -755,6 +755,14 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   border-left: 1px solid #333;
 }
 
+// remove experience thing in mobile view
+// @media all and (max-width: 993px) { 
+//   .education-experience{
+//       display:none;
+//   }   
+// }
+
+
 .about .resume-box .icon {
   width: 40px;
   height: 40px;
@@ -765,7 +773,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   text-align: center;
   z-index: 1;
   border-radius: 50%;
-  color: #fff;
+  color: #000;
   background-color: #252525;
 }
 
@@ -883,6 +891,10 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   @media screen and (max-width: 450px) {
     min-height: 215px;
   }
+}
+
+.a{
+
 }
 
 .portfolio .grid figure img {
@@ -1262,7 +1274,9 @@ body.light .contact .custom-span-contact a {
 .blog .page-link:hover {
   color: #fff !important;
 }
-
+.link a{
+  color:#9acd32;
+}
 /* Blog Post */
 
 .blog-post article h1 {

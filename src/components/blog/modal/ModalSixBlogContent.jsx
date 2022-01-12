@@ -23,7 +23,12 @@ const ModalSixBlogContent = () => {
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>Two stage flight delay prediction</h1>
+      <div className="link">
+      <h1>Two stage flight delay prediction<a href="https://github.com/sowmiya-2805/Flight_delay_prediction"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
+  </div>
+
+
+      {/* <h1>Two stage flight delay prediction</h1> */}
       <img src="img/blog/project6.png" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p>

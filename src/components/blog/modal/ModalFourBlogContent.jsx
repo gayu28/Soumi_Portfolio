@@ -23,7 +23,12 @@ const ModalFourBlogContent = () => {
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>3D print model generation from biomedical images</h1>
+      <div className="link">
+      <h1>3D print model generation from biomedical images <a href="https://github.com/sowmiya-2805/3D_Model_from_MRI"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
+  </div>
+
+
+      {/* <h1>3D print model generation from biomedical images</h1> */}
       <img src="img/blog/project4.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p>

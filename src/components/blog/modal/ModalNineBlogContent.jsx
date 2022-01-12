@@ -23,7 +23,11 @@ const ModalNineBlogContent = () => {
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>Overseas@22</h1>
+      <div className="link">
+      <h1>Overseas@22<a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
+  </div>
+
+      {/* <h1>Overseas@22</h1> */}
       <img src="img/blog/project9.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p>

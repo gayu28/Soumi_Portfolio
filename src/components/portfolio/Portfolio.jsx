@@ -12,6 +12,7 @@ import ModalEightContent from "./modal/ModalEightContent";
 import ModalNineContent from "./modal/ModalNineContent";
 import ModalTenContent from "./modal/ModalTenContent";
 import ModalElevenContent from "./modal/ModalElevenContent";
+import ModalTwelveContent from "./modal/ModalTwelveContent";
 
 
 const Portfolio = () => {
@@ -26,6 +27,8 @@ const Portfolio = () => {
   const [isOpen9, setIsOpen9] = useState(false);
   const [isOpen10, setIsOpen10] = useState(false);
   const [isOpen11, setIsOpen11] = useState(false);
+  const [isOpen12, setIsOpen12] = useState(false);
+
 
 
   function toggleModalOne() {
@@ -60,6 +63,9 @@ const Portfolio = () => {
   }
   function toggleModalEleven() {
     setIsOpen11(!isOpen11);
+  }
+  function toggleModalTwelve() {
+    setIsOpen12(!isOpen12);
   }
 
   return (
@@ -492,6 +498,47 @@ const Portfolio = () => {
             >
               <figure
                 className="direction-reveal__card"
+                onClick={toggleModalTwelve}
+              >
+                <img src="img/projects/glass_painting2.png" alt="Portolio" />
+
+                <div className=" hover-content-wrapper">
+                  <span className="content-title"> Dribbble Profile</span>
+                </div>
+              </figure>
+              {/* Start ModalTwelveContent */}
+              <Modal
+                isOpen={isOpen12}
+                onRequestClose={toggleModalTwelve}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalTwelve}>
+                    <img src="/img/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner portfolio">
+                    <ModalTwelveContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalTwelveContent */}
+            </li>
+
+
+
+            <li
+              className="direction-reveal"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="100"
+            >
+              <figure
+                className="direction-reveal__card"
                 onClick={toggleModalEleven}
               >
                 <img src="img/projects/safari2.jpg" alt="Portolio" />
@@ -864,44 +911,7 @@ const Portfolio = () => {
             </li>
 
 
-            <li
-              className="direction-reveal"
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-delay="200"
-            >
-              <figure
-                className="direction-reveal__card"
-                onClick={toggleModalNine}
-              >
-                <img src="img/projects/safari.jpg" alt="Portolio" />
-                <div className=" hover-content-wrapper">
-                  <span className="content-title"> Behance Project</span>
-                </div>
-              </figure>
-
-              {/* Start ModalNineContent */}
-              <Modal
-                isOpen={isOpen9}
-                onRequestClose={toggleModalNine}
-                contentLabel="My dialog"
-                className="custom-modal dark"
-                overlayClassName="custom-overlay dark"
-                closeTimeoutMS={500}
-              >
-                <div>
-                  <button className="close-modal" onClick={toggleModalNine}>
-                    <img src="/img/cancel.svg" alt="close icon" />
-                  </button>
-                  {/* End close icon */}
-
-                  <div className="box_inner portfolio">
-                    <ModalNineContent />
-                  </div>
-                </div>
-              </Modal>
-              {/* End  ModalNineContent */}
-            </li>
+            
           </ul>
         </TabPanel>
         {/* End Graphic Design Project*/}
@@ -944,7 +954,48 @@ const Portfolio = () => {
             </li>
             {/* <!-- Portfolio Item Ends --> */}
             
+          
+
+            <li
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="0"
+            >
+              <figure onClick={toggleModalTwelve}>
+                <img src="img/projects/glass_painting2.png" alt="Portolio" />
+                <div className=" hover-content-wrapper">
+                  <span className="content-title">Mockup Project</span>
+                </div>
+              </figure>
+
+              {/* Start ModalTwelveContent */}
+              <Modal
+                isOpen={isOpen12}
+                onRequestClose={toggleModalTwelve}
+                contentLabel="My dialog"
+                className="custom-modal dark"
+                overlayClassName="custom-overlay dark"
+                closeTimeoutMS={500}
+              >
+                <div>
+                  <button className="close-modal" onClick={toggleModalTwelve}>
+                    <img src="/img/cancel.svg" alt="close icon" />
+                  </button>
+                  {/* End close icon */}
+
+                  <div className="box_inner portfolio">
+                    <ModalTwelveContent />
+                  </div>
+                </div>
+              </Modal>
+              {/* End  ModalTwelveContent */}
+            </li>
+            {/* <!-- Portfolio Item Ends --> */}
+            
           </ul>
+
+
+
         </TabPanel>
         {/* End MOCKUP Project */}
         <TabPanel>
@@ -961,7 +1012,7 @@ const Portfolio = () => {
                 </div>
               </figure>
 
-              {/* Start  */}
+              {/* Start ModalNineContent */}
               <Modal
                 isOpen={isOpen9}
                 onRequestClose={toggleModalNine}

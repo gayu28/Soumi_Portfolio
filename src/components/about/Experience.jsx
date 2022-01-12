@@ -6,14 +6,14 @@ const experienceContent = [
     position: "RESEARCH INTERN",
     compnayName: "IIT Madras Research Park",
     details: `Simulating 3D models in Unity 3D for surgeon training`,
-    location: 'chennai'
+    location: 'Chennai, India'
   },
   {
     year: "APR 2020 - Present",
     position: "WEB DESIGNER & DEVELOPER",
     compnayName: "Mara Vascular and Interventional Radiology",
     details: `Designed and Developed website aside from AWS server maintenance`,
-    location: 'chennai'
+    location: 'Oaklahoma, US'
 
   },
   {
@@ -21,7 +21,7 @@ const experienceContent = [
     position: "RESEARCH & TEACHING ASSISTANT",
     compnayName: "Solarillion Foundation",
     details: `Core research on behavioral analysis and Image processing aside from guiding students with research direction`,
-    location: 'chennai'
+    location: 'Chennai, India'
 
   },
 ];
@@ -40,8 +40,8 @@ const Experience = () => {
             <span className="place open-sans-font">{val.compnayName}</span>
           </h5>
           <p className="open-sans-font">{val.details}</p>
-          
-          <p><i class="fas fa-map-marker"></i> {val.location}</p>
+         <h5> <i class="fa fa-map-marker" aria-hidden="true"></i> {val.location} </h5>
+         
 
         </li>
       ))}

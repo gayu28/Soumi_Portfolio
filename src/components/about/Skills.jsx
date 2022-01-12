@@ -1,23 +1,23 @@
 import styles from "./Skills.module.css";
 import SkillCard from "../../components/SkillCard/SkillCard";
 import { SkillsData } from "../../data/SkillsData";
-import TypewriterComponent from "typewriter-effect";
+// import TypewriterComponent from "typewriter-effect";
 import SortMenu from "../../components/SortMenu/SortMenu";
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const headerVariant = {
-  hidden: {
-    y: "100vh",
-  },
-  visible: {
-    y: 0,
-    transition: {
-      type: "spring",
-      stiffness: 50,
-    },
-  },
-};
+// const headerVariant = {
+//   hidden: {
+//     y: "100vh",
+//   },
+//   visible: {
+//     y: 0,
+//     transition: {
+//       type: "spring",
+//       stiffness: 50,
+//     },
+//   },
+// };
 
 const skillsVariant = {
   hidden: {
@@ -34,45 +34,45 @@ const skillsVariant = {
   },
 };
 
-const resumeVariant = {
-  hidden: {
-    y: "100vh",
-  },
-  visible: {
-    y: 0,
-    transition: {
-      type: "spring",
-      stiffness: 50,
-      delay: 1.5,
-    },
-  },
-};
+// const resumeVariant = {
+//   hidden: {
+//     y: "100vh",
+//   },
+//   visible: {
+//     y: 0,
+//     transition: {
+//       type: "spring",
+//       stiffness: 50,
+//       delay: 1.5,
+//     },
+//   },
+// };
 
-const imgVariant = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      type: "spring",
-      stiffness: 75,
-      delay: 2.5,
-      duration: 1,
-    },
-  },
-};
+// const imgVariant = {
+//   hidden: {
+//     opacity: 0,
+//   },
+//   visible: {
+//     opacity: 1,
+//     transition: {
+//       type: "spring",
+//       stiffness: 75,
+//       delay: 2.5,
+//       duration: 1,
+//     },
+//   },
+// };
 
-const hoverVariant = {
-  hover: {
-    scale: 1.2,
-    originX: 0,
-    transition: {
-      type: "spring",
-      stiffness: 300,
-    },
-  },
-};
+// const hoverVariant = {
+//   hover: {
+//     scale: 1.2,
+//     originX: 0,
+//     transition: {
+//       type: "spring",
+//       stiffness: 300,
+//     },
+//   },
+// };
 
 function createSkillCard(skillData) {
   return (

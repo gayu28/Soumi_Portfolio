@@ -23,14 +23,18 @@ const ModalSevenBlogContent = () => {
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>Xceed</h1>
+      <div className="link">
+      <h1>Xceed<a href="http://xceed.kurukshetraceg.org.in/"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
+  </div>
+
+      {/* <h1>Xceed</h1> */}
       <img src="img/blog/project7.jpeg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p>
         Designed UI/UX for the website of Xceed, the outreach program of the CEG Tech Forum of Anna University. 
 </p>
 <p>
-<a href="http://xceed.kurukshetraceg.org.in/" target='_blank'>http://xceed.kurukshetraceg.org.in/</a>
+{/* <a href="http://xceed.kurukshetraceg.org.in/" target='_blank'>http://xceed.kurukshetraceg.org.in/</a> */}
 
         </p>
       </div>

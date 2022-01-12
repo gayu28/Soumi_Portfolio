@@ -23,7 +23,11 @@ const ModalEightBlogContent = () => {
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>Structures planning facilitation system</h1>
+      <div className="link">
+      <h1>Structures planning facilitation system<a href="https://github.com/sowmiya-2805/Structures_planning_facilitation_system"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
+  </div>
+
+      {/* <h1>Structures planning facilitation system</h1> */}
       <img src="img/blog/project8.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
         <p>
