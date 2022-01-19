@@ -30,7 +30,7 @@ const ModalSevenBlogContent = () => {
       {/* <h1>Xceed</h1> */}
       <img src="img/blog/project7.jpeg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
-        <p>
+        <p align="justify">
         Designed UI/UX for the website of Xceed, the outreach program of the CEG Tech Forum of Anna University. 
 </p>
 <p>

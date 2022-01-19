@@ -31,8 +31,8 @@ const ModalFourBlogContent = () => {
       {/* <h1>3D print model generation from biomedical images</h1> */}
       <img src="img/blog/project4.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
-        <p>
-        The prime idea is to generate a workflow that can be used to convert volumetric medical imaging data (MRI and CT images) to 3D models. Our work focuses on implementing advanced segmentation algorithms capable of detecting smaller structures and separating boundary regions precisely (patient-specific). The volumetric segmentation is followed by mesh refinement, which focuses on repairing, smoothing, and appending with other related segments. This post-processing of the segments is expected to generate clean deliverables for 3D model generation. Software like Autodesk Meshmixer is used for refining and visualizing 3D models.
+        <p align="justify">
+        The prime idea is to generate a workflow that can be used to convert volumetric medical imaging data (MRI and CT images) to 3D models. Our work focuses on implementing advanced segmentation algorithms capable of detecting smaller structures and separating boundary regions precisely (patient-specific). The volumetric segmentation is followed by mesh refinement, which focuses on repairing, smoothing, and appending with other related segments. This post-processing of the segments is expected to generate clean deliverables for 3D model generation. Software, such as Autodesk Meshmixer is used for refining and visualizing 3D models.
         </p>
       </div>
       {/* Article Content Ends */}

@@ -24,16 +24,15 @@ const ModalSixBlogContent = () => {
       {/* Article Content Starts */}
 
       <div className="link">
-      <h1>Two stage flight delay prediction<a href="https://github.com/sowmiya-2805/Flight_delay_prediction"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
+      <h1>Two-stage flight delay prediction<a href="https://github.com/sowmiya-2805/Flight_delay_prediction"><i class="fa fa-link" aria-hidden="true"></i></a> </h1>
   </div>
 
 
       {/* <h1>Two stage flight delay prediction</h1> */}
       <img src="img/blog/project6.png" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
-        <p>
-        The project's main goal is to predict the arrival delay of the flights across 15 stations in the US. A two-stage model was built, which classifies delays in the former stage and predicts the duration of delays in the latter. Strong and robust predictive models were built through ensemble techniques and regularization. The best-analyzed classifier had 89% recall score and the best regressor had 93.5% r2 score. 
-        </p>
+        <p align="justify">
+        The project's main goal was to predict the arrival delay of the flights across 15 stations in the US. A two-stage model was built, which classified delays in the former stage and predicted the duration of delays in the later stage. Strong and robust predictive models were built through ensemble techniques and regularization. The best analyzed classifier had 89% recall score and the best regressor had 93.5% r2 score.        </p>
       </div>
       {/* Article Content Ends */}
     </article>

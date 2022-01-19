@@ -23,11 +23,11 @@ const ModalTwoBlogContent = () => {
       {/* Meta Ends */}
       {/* Article Content Starts */}
 
-      <h1>Urbanization mapping using satellite imagery analysis(proceeding)</h1>
+      <h1>Urbanization mapping using satellite imagery analysis(on-going)</h1>
       <img src="img/blog/project2.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
-        <p>
-        A deep learning model that performs time series analysis to get insights into urbanization trends in metropolitan cities from satellite images. This is essentially a comparison strategy that detects the change to model patio-temporal relationships. Work in this domain has been spread across many applications like weather forecast prediction and natural calamity recovery. Our focus on mapping urbanization trends arises from the awareness about the former's impacts and overcoming the difficulties of conventional methods of satellite imagery analysis.
+        <p align="justify">
+        A deep learning model that performs time series analysis to get insights into urbanization trends in metropolitan cities from satellite images. This is essentially a comparison strategy that detects the change to model patio-temporal relationships. Work in this domain has been spread across many applications, such as weather forecast prediction and natural calamity recovery. Our focus on mapping urbanization trends arises from the awareness about the impacts and overcoming the difficulties of conventional methods of satellite imagery analysis.
         </p>
         {/* <div className="quotebox">
           <div className="icon">

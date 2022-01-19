@@ -30,10 +30,11 @@ const ModalEightBlogContent = () => {
       {/* <h1>Structures planning facilitation system</h1> */}
       <img src="img/blog/project8.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
-        <p>
-        The proposed system is driven by Object-Oriented Analysis and Design, ensuring that every client gets access to experienced architects and reliable constructors according to their taste of interest. The stakeholders of the system are the Client, Architect, and Builder. The platform gets many opportunities for architects and builders. At the same time, it provides the client with quality architects and builders to get their structures built. Inspired by the idea of Autodesk to generate 3d models, the system makes it possible to transform the building plans in 2d to a 3d simulation for a better understanding of ideas. The client can understand the architect’s work better, and the builder can understand the building plan much better for construction works. 
+      <p align="justify">
+      The system was made to help clients have access to experienced architects and reliable builders, according to their taste, and was driven by Object-Oriented Analysis and Design.        </p>
+        <p align="justify">
+        The stakeholders of the system are the Clients, Architects, and Builders. The platform can provide many opportunities for architects and builders. At the same time, it gives the clients access to quality architects and builders to get their structures built. Inspired by the idea of Autodesk to generate 3d models, the system makes it possible to transform the 2D building plans to 3D simulations for a better visualization. Clients can envision the architects' work, and the builders can understand.
         </p>
-        
       </div>
       {/* Article Content Ends */}
     </article>

@@ -72,7 +72,7 @@ const Blog = () => {
               <h3>Reconstructing 3D simulations from 2D images</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
+              <p align="justify">
               A neural model for transforming 2D images to 3D models from minimal input (views) to improve machines' cognition
               </p>
             </div>
@@ -122,7 +122,7 @@ const Blog = () => {
               <h3>Urbanization mapping using satellite imagery analysis</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
+              <p align="justify">
               A deep learning network that processes and analyses satellite images to get insights into the trends of urbanization over a few years
               </p>
             </div>
@@ -172,9 +172,8 @@ const Blog = () => {
               <h3>SOMPS-Net</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
-              A graph-based model which predicts fake medical news in early stages with social network information and publisher and news statistics
-              </p>
+            <p align="justify">
+            A novel graph-based framework SOcial graph with Multi-head attention and Publisher information and news Statistics Network - SOMPS-Net.              </p>
             </div>
           </div>
           {/* End .post-content */}
@@ -222,7 +221,7 @@ const Blog = () => {
               <h3>3D print model generation from biomedical images</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
+            <p align="justify">
               A Workflow that combines image segmentation & 3D simulations to extract tumor from MRI brain scans & devise models capable of 3D printing
               </p>
             </div>
@@ -269,10 +268,10 @@ const Blog = () => {
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
-              <h3>Semantic analysis of tweets using lexicals & semantics</h3>
+              <h3>Sentiment analysis of tweets using lexicals & semantics</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
+            <p align="justify">
               Machine Learning model to analyze the reach of an entity via sentiment analysis of tweets fetched in real-time using lexical and semantic concepts
               </p>
             </div>
@@ -319,10 +318,10 @@ const Blog = () => {
           {/* End .thumb */}
           <div className="post-content">
             <div className="entry-header">
-              <h3>Two Stage Flight delay predictor</h3>
+              <h3>Two-Stage Flight delay predictor</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
+            <p align="justify">
               A two stage machine learning model which classifies if a flight is delayed or not in the former stage and predicts the duration of delays in the latter.
               </p>
             </div>
@@ -371,7 +370,7 @@ const Blog = () => {
               <h3>Xceed, CTF, CEG</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
+            <p align="justify">
               Designed and coded the UI/UX for Xceed, the outreach program of the CEG Tech Forum of CEG, Anna University, Chennai
               </p>
             </div>
@@ -420,7 +419,7 @@ const Blog = () => {
               <h3>Structures planning facilitation system</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
+            <p align="justify">
               An object oriented design aimed to connect the public to architects and constructors to get properly planned and executed buildings. 
               </p>
             </div>
@@ -469,7 +468,7 @@ const Blog = () => {
               <h3>Overseas@22</h3>
             </div>
             <div className="entry-content open-sans-font">
-              <p>
+            <p align="justify">
               A DBMS with real-world data regarding top technologies and universities offering them to guide aspiring students to achieve their graduate dreams
               </p>
             </div>

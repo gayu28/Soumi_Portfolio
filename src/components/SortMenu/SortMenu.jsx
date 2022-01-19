@@ -1,7 +1,7 @@
 import styles from "./SortMenu.module.css";
 import { skillSets } from "../../data/SkillSet";
 import { motion } from "framer-motion";
-// import { ProjectData } from "../../data/ProjectData";
+import { ProjectData } from "../../data/ProjectData";
 
 function changeBackground(e) {
   e.target.style.background = '#b9ff14';

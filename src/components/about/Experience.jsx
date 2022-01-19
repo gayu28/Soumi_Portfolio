@@ -5,22 +5,25 @@ const experienceContent = [
     year: "   FEB 2021 - Present",
     position: "RESEARCH INTERN",
     compnayName: "IIT Madras Research Park",
-    details: `Simulating 3D models in Unity 3D for surgeon training`,
+    details: `3D Model Simulations in Unity 3D - to train Surgeons`,
     location: 'Chennai, India'
   },
   {
     year: "APR 2020 - Present",
     position: "WEB DESIGNER & DEVELOPER",
     compnayName: "Mara Vascular and Interventional Radiology",
-    details: `Designed and Developed website aside from AWS server maintenance`,
-    location: 'Oaklahoma, US'
+    details: `Designed and Developed website;
+    AWS server maintenance;
+    3D simulations for patient education`,
+    location: 'Oklahoma, USA'
 
   },
   {
     year: "APR 2020 - Present",
     position: "RESEARCH & TEACHING ASSISTANT",
     compnayName: "Solarillion Foundation",
-    details: `Core research on behavioral analysis and Image processing aside from guiding students with research direction`,
+    details: `Core research on behavioral analysis and Image processing;
+    Guiding students with research methodologies`,
     location: 'Chennai, India'
 
   },

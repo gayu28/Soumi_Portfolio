@@ -27,11 +27,11 @@ const ModalThreeBlogContent = () => {
   </div>
       <img src="img/blog/project3.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
-        <p>
+        <p align="justify">
         A novel graph-based framework SOcial graph with Multi-head attention and Publisher information and news Statistics Network abbreviated as SOMPS-Net. It is essentially a graph-based solution that utilizes user network information for a given news article to predict its veracity at early stages.
         </p>
-        <p>The architecture is split into two main components. One is the social interaction graph which captures the network information via Graph Neural Networks. The second component is the Publisher and News statistics which encompasses details like a lifetime of news articles and an average rating of the publisher that cannot be fabricated for a long time.</p>
-        <p>The traditional approaches to detect fake medical news that uses an article's content and linguistic features. It is important to note that such content can easily be manipulated and made to look real with today's enhanced technologies. With relevant information, the model outperformed other existing models by a large margin, strengthening our emphasis on graphs and publisher statistics.</p>      
+        <p align="justify">The architecture is split into two main components. One is the social interaction graph, which captures the network information via Graph Neural Networks. The second component is the Publisher and News statistics, which encompasses details, such as a lifetime of news articles and the average rating of the publisher that cannot be fabricated for a long time.</p>
+        <p align="justify">The traditional approach is to detect fake medical news using an article's content and linguistic features. It is important to note that such content can easily be manipulated and made to look real with today's enhanced technologies. With relevant information, the model outperformed other existing models by a large margin, strengthening our emphasis on graphs and publisher statistics.</p>      
       </div>
       {/* Article Content Ends */}
     </article>

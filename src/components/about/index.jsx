@@ -4,7 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 
@@ -99,6 +99,9 @@ const index = () => {
           </div>
         </div>
         </div>
+        {/* <div>
+          <img src = 'img/timeline.jpeg' />
+            </div> */}
         {/*  Experience & Education Ends */}
       </div>
     </section>

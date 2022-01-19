@@ -5,14 +5,15 @@ const educationContent = [
     year: "2018-Present",
     degree: "BACHELORS OF ENGINEERING",
     institute: "CEG, ANNA UNIVERSITY",
-    details: `Majors in Computer Science focussing Esthetic Computing and Machine Learning`,
+    details: `Majors in Computer Science and Engineering;
+    Interested in Esthetic Computing, AI, and UI/UX`,
     location: 'Chennai, India'
   },
   {
     year: "2016-2018",
     degree: "HIGHER SECONDARY",
     institute: "BHARATHI VIDYA BHAVAN",
-    details: `Secured 96.75% in Science stream and held responsibility as a House Captain`,
+    details: `Secured 96.75% in Science stream; Held responsibility as a House Captain`,
     location: 'Erode, India'
 
   },
@@ -20,7 +21,7 @@ const educationContent = [
     year: "2014-2016",
     degree: "HIGH SCHOOL",
     institute: "THE BVB SCHOOL",
-    details: `Cheerful school days when I was excelling in arts and beginning to explore computers`,
+    details: `Cheerful school days when I was excelling in arts; Began to explore computers`,
     location: 'Erode, India'
 
   },

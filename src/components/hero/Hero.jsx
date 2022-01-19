@@ -7,7 +7,7 @@ const heroContent = {
   heroMobileImage: "img-mobile",
   heroTitleName: "Sowmiya",
   heroDesignation: "CSE Undergrad",
-  heroDescriptions: `I'm a computer science undergrad aspiring to pursue my future in immersive technologies to transform human lives in meaningful ways.`,
+  heroDescriptions: `I'm a Computer Science and Engineering undergrad aspiring to pursue my future in immersive technologies to transform human lives in meaningful ways.`,
   heroBtn: "more about me",
 };
 
@@ -39,7 +39,7 @@ const Hero = () => {
               I'm {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>
             </h1>
-            <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+            <p align = 'justify' className="open-sans-font">{heroContent.heroDescriptions}</p>
             <button className="button" onClick={toggleModalOne}>
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>

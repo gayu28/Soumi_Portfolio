@@ -5,7 +5,6 @@ function SkillCard(props) {
     <div className={styles.skillCard} style={{"backgroundColor":props.contColor}}>
       <div className={styles.iconContainer} style={{"backgroundColor":props.iconContColor}}>
         <img
-          alt=""
           src={props.src}
           className={styles.skillIcon}
         ></img>

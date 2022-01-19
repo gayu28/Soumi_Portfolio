@@ -30,10 +30,13 @@ const ModalNineBlogContent = () => {
       {/* <h1>Overseas@22</h1> */}
       <img src="img/blog/project9.jpg" className="img-fluid" alt="Blog" />
       <div className="blog-excerpt open-sans-font pb-5">
-        <p>
-        Overseas@22 is a University admissions guidance portal designed with appropriate UI/UX and operated by DBMS techniques. It contains real-world data about the top technologies that could transform the near future and the universities offering graduate courses in them. Aside from providing information, it links them to professors for guidance and internships and counselors to help them throughout their graduate admission procedures. There are connections to coaching centers that help students clear examinations like GRE and TOEFL. The goal is to help aspiring students achieve their graduate dreams in every possible way.
-        </p>
+        <p align="justify">
+        Overseas@22 is a University admissions guidance portal designed with attractive UI/UX and utilizing DBMS techniques.        </p>
+      <p align="justify">
+      It uses real-world data on the leading technologies that could transform our near future and the universities offering graduate courses in them. Aside from providing information, it links them to professors for guidance and internships and counselors to help them throughout their graduate admission process. The portal also provides students access to tutoring centers to help them prepare for standardized tests, such as GRE and TOEFL. The objective is to help aspiring students achieve their graduate dreams in every possible way.
+      </p>
       </div>
+
       {/* Article Content Ends */}
     </article>
     // Article Ends
